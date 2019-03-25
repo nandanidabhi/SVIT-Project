@@ -1,0 +1,74 @@
+.header{
+    background-color: orange;
+    font-weight: bold;
+}
+.fas{
+    margin: 0px 7px;
+}
+.header ul{
+    display: flex;
+    margin: 0 auto;
+    padding: 0px;
+}
+.header ul li,.footer ul li{
+    list-style-type: none;
+    margin:0px 10px;
+}
+.header ul li a,.footer ul li a{
+    color: white;
+    text-decoration: none;   
+    padding: 5px 10px;
+}
+.header ul li a:hover{
+    background-color: darkorange;   
+    border-radius: 10px;
+}
+.menu{
+    margin:73px 15px;
+}
+.nav-brand img{
+    width: 100%;
+    display: block; 
+}
+.footer{
+    background-color: #2b2b2b;
+    color: white;
+    text-align: center;   
+}
+.foot{
+    margin: auto;
+    padding: 20px 0px;
+}
+.quote{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 22px;
+}
+.blog{
+    margin: 50px 50px;
+}
+.profile_img img {
+    vertical-align: middle;
+    border-style: none;
+    width: 100%;
+    border-radius: 100%;
+    border: 2px dotted orange;
+    padding: 7px;
+}
+.profile_img{
+    padding: 40px;
+}
+.profile_col{
+    text-align: center;
+}
+.option{
+    text-align: center;
+    margin: auto;
+}
+.event table{
+    width: 100%;
+    margin:20px;
+}
+.event table td,.event table th{
+    padding: 10px;
+}
