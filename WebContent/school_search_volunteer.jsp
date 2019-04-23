@@ -17,10 +17,10 @@
                                                 <img src="images/pic1.jpg" alt="" class="img-responsive"/>
                                         </div>
                                         <div class="profile_text">
-                                                <p>{Name of User}</p>
-                                                <p>{Volunteer/Team}</p>
-                                                <p><a href="#">[Edit Profile]</a></p>
-                                                <p><a href="#">Sign Out</a></p>
+                                               <p>${uname}</p>
+                                                <p>${uname}</p>
+                                                <p><a href="school_update.jsp">[Edit Profile]</a></p>
+                                                <p><a href="logout">Sign Out</a></p>
                                         </div>
                                 </div>
                         </div>
@@ -28,21 +28,21 @@
                             <div class="volunteer_search_events">
                                 <div class="profile_content">
                                         <div class="row">
-                                                <p>Welcome {Name of the User} !!</p>
+                                               <p>Welcome ${uname} !!</p>
                                         </div> 
                                         <div class="row">
                                             <div class="search_event">
-                                                <form action="">
+                                                <form action="school_search_vol.jsp">
                                                     <p>Search By::</p>
                                                     Start Date:<input type="date" name="start_date">
                                                     End Date:<input type="date" name="end_date">
                                                     Location:<input type="text" name="location">
                                                     Keywords:<input type="text" name="keywords">
-                                                    <button type="submit">Search Events</button>
+                                                    <input type="submit" value="Search_volentier">
                                                 </form>
                                             </div>
                                         </div>
-                                        <div class="row">
+                                       <!--   <div class="row">
                                             <div class="event">
                                                     <table>
                                                             <tr>
@@ -63,8 +63,8 @@
                                                         </table>
                                                         <p>Showing <b>5</b> results...</p>
                                             </div>                                          
-                                        </div>
-                                </div>
+                                        </div> 
+ -->                                </div>
                             </div>
                         </div>
                 </div>

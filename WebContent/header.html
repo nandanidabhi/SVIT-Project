@@ -4,45 +4,70 @@
                 <meta name="viewport" content="width=device-width, initial-scale=1">
                 <link rel="stylesheet" href="index_css.css">
                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+                
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
                 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity
-                ="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+                ="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"/>
+                <style>
+                .bg-light {
+    background-color: #ffa500!important;
+           margin-top: 2%;
+    font-size: 19px;
+}
+
+                </style>
+             
         </head>
         <body>
-<div class="header">
-    <div class="container">
-        <div class="row">                            
+
+    <div class="container-fluid">
+        <div class="row" style="background-color: #ffa500!important">                            
                         <div class=" col-md-3 nav-brand">
+                        <center>
                             <img src="logo.png"  alt="">
+                            </center>
                         </div>    
                         <div class=" col-md-8 offset-md-1">
-                            <div class="menu">
-                                    <ul>
-                                            <li class="nav-item">
-                                                <a href="index.jsp">Home</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="blog.html">Blog</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="contact.jsp">Contact Us</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="login_form.jsp">Log In</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="register_form.jsp">Register</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="donation.jsp"><i class="fas fa-hand-holding-usd"></i>Donate Now</a>
-                                            </li>
-                                    </ul>
-                            </div>                     
+                            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.jsp">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="blog.html">Blog</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contactus.jsp">Contact us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="login_form.jsp">Log in</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="register_form.jsp">Register</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="donation.jsp"><i class="fas fa-hand-holding-usd"></i>Donate Now</a>
+      </li>
+    </ul>
+    
+  </div>
+</nav>             
                     </div>                   
             </div>
     </div>
-</div>
+
 </body>
 </html>

@@ -1,34 +1,58 @@
 .header{
     background-color: orange;
     font-weight: bold;
+    height: 19%;
+
+}
+@media only screen and (max-width: 576px){
+	
+	.nav-brand img {
+    width: 54%;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+.header {
+    background-color: orange;
+    font-weight: bold;
+    height: 34%;
+}
+}
+.btn-secondary {
+    color: #fff;
+    background-color: white;
+    border-color: orange;
 }
 .fas{
-    margin: 0px 7px;
+    margin: 0 7px;
 }
 .header ul{
     display: flex;
-    margin: 0 auto;
-    padding: 0px;
+    float: right;
+    margin:73px 0;
+}
+.header ul li a{
+    color: white;
+    text-decoration: none;   
+    padding: 10px 25px;
 }
 .header ul li,.footer ul li{
-    list-style-type: none;
-    margin:0px 10px;
+    list-style-type: none;    
 }
 .header ul li a,.footer ul li a{
     color: white;
     text-decoration: none;   
-    padding: 5px 10px;
+    padding: 10px 25px;
 }
 .header ul li a:hover{
     background-color: darkorange;   
-    border-radius: 10px;
+    border-radius: 7px;
 }
 .menu{
-    margin:73px 15px;
+   
 }
 .nav-brand img{
-    width: 100%;
-    display: block; 
+    width: 49%;
+   
 }
 .footer{
     background-color: #2b2b2b;
@@ -37,7 +61,7 @@
 }
 .foot{
     margin: auto;
-    padding: 20px 0px;
+    padding: 20px 0;
 }
 .quote{
     font-weight: bold;
@@ -50,7 +74,7 @@
 .profile_img img {
     vertical-align: middle;
     border-style: none;
-    width: 100%;
+    width: 70%;
     border-radius: 100%;
     border: 2px dotted orange;
     padding: 7px;
@@ -71,4 +95,141 @@
 }
 .event table td,.event table th{
     padding: 10px;
+}
+.back_orange{
+    background-color: orange;
+}
+.align_center{
+    text-align: center;
+    margin: 25px 0;
+}
+.impact_row i{
+    font-size: 50px
+}
+.impact i{
+    font-size: 27px;
+}
+.impact{
+    padding: 0;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    margin: 78px 0;
+}
+.number{
+    font-size: 25px;
+}
+.heading{
+    font-size: 30;
+    font-weight: bold;
+}
+.hr{
+    background-color: orange;
+    height: 10px;
+}
+.testimonial_heading{
+    font-size: 20px;
+    font-weight: bold;  
+}
+.testimonial_speaker{
+    font-size: 13px;
+    font-weight: bold;
+}
+.speaker_address{
+    font-size: 12px;
+    font-weight: bold;
+}
+.testimonial_row{
+    margin-bottom: 25px;
+}
+.gallery_row_1,.gallery_row_2{
+    margin-top: 30px;
+}
+.services_row{
+    margin-top: 10px;
+    text-align: center;
+}
+.services_row p{
+    margin: 30px 0;
+}
+.services_text p{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.margin{
+    padding:3px;
+    border: 3px solid white;
+}
+.margin:hover{
+    background-color: rgb(238, 134, 8);
+}
+
+/*media queries*/
+@media only screen and (max-width:1994px){
+    .header ul {
+        display: flex;
+        float: right;
+        margin: 46px 0;
+    }
+    .header ul li a{
+        color: white;
+        text-decoration: none;
+        padding: 10px 21px;
+    }
+}
+@media only screen and (max-width:991px){
+    .header ul {
+        display: flex;
+        float: right;
+        margin: 38px 0;
+    }
+    .header ul li a {
+        color: white;
+        text-decoration: none;
+        padding: 8px 6px;
+    }
+}
+@media only screen and (max-width:767px){
+    .header ul {
+        display: flex;
+        /* float: right; */
+        margin: 23px 0;
+    }
+    .header ul li a{
+        color: white;
+        text-decoration: none;
+        padding: 8px 6px;
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width:576px){
+    .header ul {
+        display: flex;
+        float: right;
+        margin: 23px 0;
+    }   
+    .header ul li a{
+        color: white;
+        text-decoration: none;
+        padding: 8px 6px;
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width:419px){
+    .header ul li a{
+        color: white;
+        text-decoration: none;
+        padding: 8px 6px;
+        font-size: 7px;
+    }
+}
+@media only screen and (max-width:320px){
+    .header ul li a{
+        color: white;
+        text-decoration: none;
+        padding: 8px 6px;
+        font-size: 7px;
+    }
 }
